@@ -1,13 +1,60 @@
+/* COLOR PALETTE
+#2D323B - Dark Grey 
+#877D74 - Light Brown, (bronze-like)
+#3e5887 - Medium Grey/Blue 
+hsl(219, 37.2%, 94.1%); - Light Blue Bumped up to Almost White */
+
+/* Global Styles
+---------------------------------------------------- */
 body {
-  background-color:#2D323B;
-  color: hsl(219, 37.2%, 94.1%);
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  /* background-color: hsl(219, 37.2%, 94.1%); */
 }
 
-img {
+h1{
+  /* background-color: #877D74; */
+  color:#3e5887;
+  font-size: 3rem;
+}
+
+a {
+  color:#3e5887;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+/* a:visited {
+  color:white;
+} */
+
+h2{
+  margin: 0;
+}
+.content-wrap {
+  width: 900px;
+  margin: 0 auto;
+  padding: 60px 0;
+}
+
+/* Pofile
+---------------------------------------------------- */
+.profile-pic {
   width: 150px;
   height: 185px;
   border-radius: 100%;
   border: 3px solid #877D74;
+}
+
+header {
+  color: hsl(219, 37.2%, 94.1%);
+  background-color: #2D323B;
+  
+  margin-bottom: 0;
 }
 
 h1{
@@ -20,7 +67,44 @@ h2{
   font-size: 2rem;
 }
 
-p {
+/* p {
   color: hsl(219, 37.2%, 94.1%);
+} */
+/* Projects
+---------------------------------------------------- */
+.projects {
+  color:#2D323B;
+  background-color:  hsl(219, 37.2%, 94.1%);
+  margin-top: 0;
 }
 
+/* Work Experience
+---------------------------------------------------- */
+.work-experience {
+  color:  hsl(219, 37.2%, 94.1%);
+  background-color: #2D323B;
+}
+
+.brownie {
+ width: 300px;
+}
+
+/* Education 
+---------------------------------------------------- */
+.education {
+  color:#2D323B;
+  background-color: hsl(219, 37.2%, 94.1%);
+  
+}
+
+/* Contact
+---------------------------------------------------- */
+
+
+/* Footer
+---------------------------------------------------- */
+
+footer {
+  color:hsl(219, 37.2%, 94.1%);
+  background-color: #2D323B;
+}
