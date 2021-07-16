@@ -159,11 +159,17 @@ header {
 .harvard-extension {
   border-bottom: hidden;
 }
-/* Contact
+
+/* Volunteer
 ---------------------------------------------------- */
 
+.volunteer {
+  color:  hsl(219, 37.2%, 94.1%);
+  background-color: #2D323B;
+}
 
-/* Footer
+
+/* Contact & Footer
 ---------------------------------------------------- */
 .contact-list a{
   padding: 15px;
