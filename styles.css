@@ -191,6 +191,10 @@ header {
   margin-top: 7px;
 }
 
+.github {
+  margin-top: 9.5px;
+}
+
 footer {
   color:hsl(219, 37.2%, 94.1%);
   /* background-image: linear-gradient(#2D323B, rgba(45, 50, 59, 75%) ); */
