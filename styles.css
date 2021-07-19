@@ -106,24 +106,28 @@ h3 ~ p {
   border: .5px solid hsl(219, 37.2%, 94.1%);
 }
 
-header {
+/* header {
   color: hsl(219, 37.2%, 94.1%);
   background-image: linear-gradient(rgba(45, 50, 59, 75%), #2D323B );
-  /* text-align: center; */
-}
+} */
 
 .intro {
   padding-left: 20%;
   margin-top: 35px;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
   font-size: 17.5px;
   font-weight: 200;
-
 }
+
+.profile-pic {
+  filter: grayscale(100%);
+}
+
+
 
 .bottom-hero {
   color: #CCC5BB;
-  /* background-color: black; */
+  background-color: black;
   margin-bottom: 0;
 }
 .bottom-hero p {
@@ -146,8 +150,8 @@ header {
 /* Work Experience
 ---------------------------------------------------- */
 .work-experience {
-  color:  hsl(219, 37.2%, 94.1%);
-  background-color: #2D323B;
+  color:  #F8F9FA;
+  background-color: #131314;
 }
 
 .key-contributions {
