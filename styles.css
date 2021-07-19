@@ -4,6 +4,13 @@
 #3e5887 - Medium Grey/Blue 
 hsl(219, 37.2%, 94.1%); - Light Blue Bumped up to Almost White */
 /* #F7A865 - link hover orange */
+
+/* UPDATED COLOR PALETTE
+#131314 - deep dark grey (almost black)
+#F8F9FA - very light grey (almost white)
+#BBC2CC - silver grey
+#CCC5BB - complmmentary to the sliver grey
+
 /* Global Styles
 ---------------------------------------------------- */
 html {
@@ -85,7 +92,7 @@ h3 ~ p {
 ---------------------------------------------------- */
 .hero {
   color:#BBC2CC;
-  background-color: hsl(219, 37.2%, 94.1%);
+  /* background-color: hsl(219, 37.2%, 94.1%); */
   background-image: url(../images/hero-comp.jpg);
   background-size: cover;
   background-position: center center;
@@ -111,9 +118,24 @@ h3 ~ p {
   background-image: linear-gradient(rgba(45, 50, 59, 75%), #2D323B );
 } */
 
+
+
+/* Projects
+---------------------------------------------------- */
+
+.title {
+  /* color: ##BBC2CC; */
+  color: red;
+  background-color: black;
+  margin-bottom: 0;
+}
+.title p {
+  color: #F8F9FA;
+}
+
 .intro {
   padding-left: 20%;
-  margin-top: 35px;
+  /* margin-top: 35px; */
   margin-bottom: 50px;
   font-size: 17.5px;
   font-weight: 200;
@@ -124,21 +146,6 @@ h3 ~ p {
 }
 
 
-
-.bottom-hero {
-  color: #CCC5BB;
-  background-color: black;
-  margin-bottom: 0;
-}
-.bottom-hero p {
-  color: #F8F9FA
-}
-
-
-
-/* p {
-  color: hsl(219, 37.2%, 94.1%);
-} */
 /* Projects
 ---------------------------------------------------- */
 .projects {
@@ -177,7 +184,7 @@ h3 ~ p {
 /* Education 
 ---------------------------------------------------- */
 .education {
-  color:#2D323B;
+  color:#131314;
   background-color: hsl(219, 37.2%, 94.1%);
   background-image: url(../images/colored-pencils.jpg);
   background-size: cover;
@@ -187,7 +194,7 @@ h3 ~ p {
 
 .education-logos {
   overflow: hidden;
-  border-bottom: 1px solid #877D74;
+  border-bottom: 1px solid #CCC5BB;
   padding: 25px 0;
 }
 
@@ -218,8 +225,8 @@ h3 ~ p {
 ---------------------------------------------------- */
 
 .volunteer {
-  color:  hsl(219, 37.2%, 94.1%);
-  background-color: #2D323B;
+  color:  #F8F9FA;
+  background-color: #131314;
 }
 
 .volunteer h2{
