@@ -243,7 +243,8 @@ h3 ~ p {
   
 }
 .contact-list a:hover{
-  margin-top: 7px;
+  /* margin-top: 7px; */
+  transform: scale(1.2) translateY(-15px);
 }
 
 
