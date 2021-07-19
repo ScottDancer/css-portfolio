@@ -3,7 +3,7 @@
 #877D74 - Light Brown, (bronze-like)
 #3e5887 - Medium Grey/Blue 
 hsl(219, 37.2%, 94.1%); - Light Blue Bumped up to Almost White */
-
+/* #F7A865 - link hover orange */
 /* Global Styles
 ---------------------------------------------------- */
 html {
@@ -66,9 +66,19 @@ a:visited {
 } */
 
 .content-wrap {
-  width: 900px;
+  max-width: 900px;
+  width: 85%;
   margin: 0 auto;
   padding: 60px 0;
+}
+
+h3 + p {
+  font-style: italic;
+  font-weight: 500;
+}
+
+h3 ~ p {
+  margin: 0;
 }
 
 /* Pofile
@@ -82,8 +92,13 @@ a:visited {
   height: 185px;
   border-radius: 100%;
   border: 3px solid #877D74;
-  float: left;
-  
+  float: left;  
+}
+
+.pdf-logo {
+  width: 30px;
+  border-radius: 25%;
+  border: .5px solid hsl(219, 37.2%, 94.1%);
 }
 
 header {
@@ -125,8 +140,24 @@ header {
   background-color: #2D323B;
 }
 
-.brownie {
- width: 300px;
+.key-contributions {
+  font-weight: 500;
+}
+
+.job-item {
+  font-weight: 300;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  column-gap: 20px;
+  border-bottom: 1px solid #877D74;
+}
+
+.job-details {
+
+}
+
+.work-experience ul {
+  list-style-type: square;
 }
 
 /* Education 
@@ -134,6 +165,10 @@ header {
 .education {
   color:#2D323B;
   background-color: hsl(219, 37.2%, 94.1%);
+  background-image: url(../images/pencils.jpg);
+  background-size: cover;
+  background-position: top right;
+  padding-bottom: 100px;
 }
 
 .education-logos {
@@ -157,8 +192,12 @@ header {
   /* margin-bottom: 500px; */
 }
 
-.harvard-extension {
+.last-entry {
   border-bottom: hidden;
+}
+
+.education p {
+  width: 60%;
 }
 
 /* Volunteer
@@ -181,9 +220,12 @@ header {
   padding: 15px;
   display: inline-block;
   text-decoration: none;
+  font-size:12px;
+  font-weight: 700;
 }
 .contact-list img {
   width: 60px;
+  height: 55px;
   display: flex;
   
 }
@@ -191,20 +233,23 @@ header {
   margin-top: 7px;
 }
 
-.github {
-  margin-top: 9.5px;
-}
 
 footer {
-  color:hsl(219, 37.2%, 94.1%);
+  background-color:white;
   /* background-image: linear-gradient(#2D323B, rgba(45, 50, 59, 75%) ); */
   padding: 0;
   text-align: center;
 }
 
-ul {
+footer ul {
   list-style-type: none;
   display: flex;
   justify-content: center;
+}
 
+/* Responsive
+---------------------------------------------------- */
+
+@media screen and (min-width:750){
+  
 }
