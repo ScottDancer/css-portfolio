@@ -33,8 +33,8 @@ h1{
   /* background-color: #877D74; */
   /* color: hsl(219, 37.2%, 94.1%); */
   font-size: 9rem;
-  font-family: 'Rouge Script', cursive;
-  font-weight: 200;
+  /* font-family: 'Rouge Script', cursive;
+  font-weight: 200; */
   font-family: 'Tangerine', cursive;
   line-height: 10rem;
   height: 35px;
@@ -90,7 +90,6 @@ h3 ~ p {
 
 .hero {
   color:#BBC2CC;
-  /* background-color: red; */
   background-image: url(images/hero-comp.jpg);
   background-size: cover;
   background-position: center center;
@@ -121,8 +120,8 @@ h3 ~ p {
 
 .title {
   /* color: ##BBC2CC; */
-  color: red;
-  background-color: black;
+  /* color: red; */
+  background-color: teal;
   display: grid;
   grid-template-columns: 2fr 1fr;
   grid-template-rows: 20px 1fr 2fr;
@@ -188,6 +187,7 @@ h3 ~ p {
 
 /* Education 
 ---------------------------------------------------- */
+
 .education {
   color:#131314;
   background-color: hsl(219, 37.2%, 94.1%);
@@ -264,8 +264,8 @@ h3 ~ p {
 
 
 footer {
-  background-color:white;
   /* background-image: linear-gradient(#2D323B, rgba(45, 50, 59, 75%) ); */
+  background-color:white;
   padding: 0;
   text-align: center;
 }
